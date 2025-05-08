@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StackExchange.Redis" Version="2.8.31" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MCrypto.Applicaton\MCrypto.Applicaton.csproj" />
+    <ProjectReference Include="..\MCrypto.Core\MCrypto.Core.csproj" />
+    <ProjectReference Include="..\MCrypto.Infrastructure\MCrypto.Infrastructure.csproj" />
+    <ProjectReference Include="..\MCrypto.Web\MCrypto.Web.csproj" />
+  </ItemGroup>
+
+</Project>

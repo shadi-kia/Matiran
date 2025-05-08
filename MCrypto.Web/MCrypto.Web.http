@@ -1,0 +1,6 @@
+@MCrypto.Web_HostAddress = http://localhost:5106
+
+GET {{MCrypto.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

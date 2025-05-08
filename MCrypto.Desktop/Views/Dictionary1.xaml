@@ -1,0 +1,8 @@
+﻿<ListView ItemsSource="{Binding Cryptocurrencies}">
+    <ListView.View>
+        <GridView>
+            <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" />
+            <GridViewColumn Header="Price" DisplayMemberBinding="{Binding CurrentPrice}" />
+        </GridView>
+    </ListView.View>
+</ListView>

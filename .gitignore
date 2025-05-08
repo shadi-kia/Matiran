@@ -1,0 +1,55 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# IDE-specific
+.vs/
+.idea/
+.vscode/
+
+# Dependency directories
+node_modules/
+packages/
+
+# Generated files
+*.g.*
+*.i.*
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.idb
+*.lib
+*.obj
+*.tmp
+*.csproj.user
+*.cmake.user
+*.VC.db
+*.VC.opendb
+*.publish/
+
+# Azure Pipelines
+*.coverage
+*.coveragexml
+coverage.info
+coverage.opencover.xml

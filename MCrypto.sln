@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCrypto", "MCrypto\MCrypto.csproj", "{38498C7A-EF8A-4378-A337-5B71977CC4C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCrypto.Core", "MCrypto.Core\MCrypto.Core.csproj", "{BB4691EB-8482-46CF-8175-A6C908CF2B50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCrypto.Applicaton", "MCrypto.Applicaton\MCrypto.Applicaton.csproj", "{4D7ABE40-99D3-4D32-8B59-36823D0B42DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCrypto.Infrastructure", "MCrypto.Infrastructure\MCrypto.Infrastructure.csproj", "{77757AD7-94AD-497A-B66D-6FAE0EAB575C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCrypto.Web", "MCrypto.Web\MCrypto.Web.csproj", "{75E8494F-56E0-4285-B476-BD7A08EA2E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCrypto.Desktop", "MCrypto.Desktop\MCrypto.Desktop.csproj", "{C5228A30-3606-4AE6-90D3-D8D2842A7D30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38498C7A-EF8A-4378-A337-5B71977CC4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38498C7A-EF8A-4378-A337-5B71977CC4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38498C7A-EF8A-4378-A337-5B71977CC4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38498C7A-EF8A-4378-A337-5B71977CC4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB4691EB-8482-46CF-8175-A6C908CF2B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4691EB-8482-46CF-8175-A6C908CF2B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4691EB-8482-46CF-8175-A6C908CF2B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4691EB-8482-46CF-8175-A6C908CF2B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D7ABE40-99D3-4D32-8B59-36823D0B42DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7ABE40-99D3-4D32-8B59-36823D0B42DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7ABE40-99D3-4D32-8B59-36823D0B42DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7ABE40-99D3-4D32-8B59-36823D0B42DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77757AD7-94AD-497A-B66D-6FAE0EAB575C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77757AD7-94AD-497A-B66D-6FAE0EAB575C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77757AD7-94AD-497A-B66D-6FAE0EAB575C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77757AD7-94AD-497A-B66D-6FAE0EAB575C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E8494F-56E0-4285-B476-BD7A08EA2E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E8494F-56E0-4285-B476-BD7A08EA2E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E8494F-56E0-4285-B476-BD7A08EA2E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E8494F-56E0-4285-B476-BD7A08EA2E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5228A30-3606-4AE6-90D3-D8D2842A7D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5228A30-3606-4AE6-90D3-D8D2842A7D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5228A30-3606-4AE6-90D3-D8D2842A7D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5228A30-3606-4AE6-90D3-D8D2842A7D30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8C158EC-D469-4A20-9970-42013A31212B}
+	EndGlobalSection
+EndGlobal
